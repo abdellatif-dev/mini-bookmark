@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "mini bookmark",
+    "author": "abdellatif_dev",
+    "description": "this gives you a mini search engines shortcuts",
+    "version": "1.0.0",
+
+    "icons": {"64": "media/multi.png"},
+  
+    "browser_action": {
+        "default_title" : "mini bookmark",
+        "default_icon" : "media/multi.png",
+        "default_popup" : "index.html"
+    },    
+    "permissions" : [
+        "background",
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
